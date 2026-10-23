@@ -62,5 +62,5 @@ The repository includes a sample dataset of 20 students with marks in Maths, Sci
 - Exporting analysis results to CSV
 
 ## Author
-AIML Engineering Student
+Diya Nagpure (AIML Engineering Student)
 
