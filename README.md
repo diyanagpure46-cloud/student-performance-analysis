@@ -1,83 +1,66 @@
-# Student Performance Analysis 📊
+# Student Performance Analysis using Python
 
 ## About the Project
-Student Performance Analysis is a beginner-friendly data analysis project developed using Python, NumPy, and Pandas. It analyzes students' academic marks and attendance to understand their performance.
-
-## Objectives
-- Calculate total and average marks.
-- Analyze subject-wise performance.
-- Identify the top five students.
-- Classify students according to their average marks.
-- Analyze student attendance and its relationship with marks.
-- Save the analysis results in a CSV file.
-
-## Technologies Used
-- **Python** — Programming logic and functions.
-- **NumPy** — Numerical calculations and correlation.
-- **Pandas** — Data processing and analysis.
-- **CSV** — Dataset storage.
-
-## Project Files
-| File | Description |
-|---|---|
-| `student_data.csv` | Sample student marks and attendance |
-| `student_analysis.py` | Main Python analysis program |
-| `requirements.txt` | Required Python libraries |
-| `student_analysis_results.csv` | Generated analysis results |
+This beginner-friendly data analysis project uses Python, Pandas, and NumPy to analyze student marks and attendance. It calculates total and average marks, classifies student performance, identifies top-performing students, and examines the relationship between attendance and marks.
 
 ## Features
-1. Calculates total and average marks for each student.
-2. Displays subject-wise average marks.
-3. Identifies the top five students.
-4. Classifies performance as Excellent, Good, Needs Improvement, or At Risk.
-5. Calculates average attendance.
-6. Calculates the correlation between attendance and average marks.
-7. Exports analyzed data to a CSV file.
+- Calculates total and average marks for each student
+- Classifies performance as Excellent, Good, Needs Improvement, or At Risk
+- Displays subject-wise average marks
+- Identifies the top five students
+- Summarizes performance categories
+- Calculates the correlation between attendance and average marks
+- Exports the analysis to a CSV results file
 
-## Performance Categories
-- **Excellent:** Average marks of 85 or above.
-- **Good:** Average marks from 70 to below 85.
-- **Needs Improvement:** Average marks from 50 to below 70.
-- **At Risk:** Average marks below 50.
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- CSV datasets
+- Git and GitHub
 
-## Installation and Usage
+## Project Files
+- `student_data.csv` — Sample student dataset
+- `student_analysis.py` — Python analysis program
+- `student_analysis_results.csv` — Generated analysis results
+- `requirements.txt` — Required Python libraries
 
-### 1. Install Python
-Install Python on your computer if it is not already installed.
+## How to Run
 
-### 2. Download the Repository
-Download or clone this repository to your computer.
+1. Install Python.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Install the required libraries:
 
-### 3. Install Dependencies
-Open a terminal in the project folder and run:
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+5. Run the program:
 
-### 4. Run the Program
-Run the following command:
+   ```bash
+   python student_analysis.py
+   ```
 
-```bash
-python student_analysis.py
-```
+6. The program displays the analysis and creates `student_analysis_results.csv`.
 
-The program reads `student_data.csv`, displays the analysis in the terminal, and generates `student_analysis_results.csv`.
+## Analysis Performed
+- Overall average marks and attendance
+- Subject-wise average marks
+- Top five students by average marks
+- Performance category counts
+- Attendance and marks correlation
 
 ## Dataset
-This project uses sample data for practice and demonstration. The dataset contains student names, marks in Mathematics, Science, and English, and attendance percentages. It does not represent verified real student records.
+The repository includes a sample dataset of 20 students with marks in Maths, Science, and English, along with attendance percentages. The data is for educational demonstration only.
 
 ## Learning Outcomes
-This project provides practical experience with Python functions, conditional statements, NumPy calculations, Pandas DataFrames, CSV file handling, sorting, and basic statistical analysis.
-
-## Future Improvements
-- Add more subjects and student records.
-- Compare performance across different classes.
-- Add additional statistical analysis.
-- Develop a simple user interface.
+- Reading CSV files using Pandas
+- Performing calculations with Pandas and NumPy
+- Creating a function to classify performance
+- Using correlation to explore relationships in data
+- Exporting analysis results to CSV
 
 ## Author
-Diya Nagpure
+AIML Engineering Student
 
-## Project Status
-Completed — Beginner Data Analysis Project
